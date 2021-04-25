@@ -1,0 +1,147 @@
+MKLROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl
+MANPATH=/sw/acf/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/man:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/man/en_US:/opt/moab/share/man:/usr/share/man:/usr/local/share/man
+XALT_ETC_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/etc
+HOSTNAME=acf-rc028
+PBS_VERSION=TORQUE-6.1.1.1
+TG_CLUSTER_PFS=/lustre/haven/user/ppatel91
+_MODULESBEGINENV_=/tmp/tmp.hPsNhs0R0J
+INTEL_LICENSE_FILE=/sw/cs400_centos7.3_optsoftware/intel/licenses/
+IPPROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp
+MPICH_HOME=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64
+SHELL=/bin/bash
+HISTSIZE=1000
+PBS_JOBNAME=train_mnist_dse512
+CONDA_SHLVL=1
+PERL5LIB=/nics/b/home/ppatel91/perl5/lib/perl5:/opt/moab/lib/perl5:/opt/moab/lib/perl5
+LIBRARY_PATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+ALT_LINKER=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin/ld
+XALT_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+CONDA_PROMPT_MODIFIER=(pytorch181) 
+CUE_SCRATCH=/lustre/haven/user/ppatel91
+PBS_ENVIRONMENT=PBS_BATCH
+FPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+INTEL_ARCH=intel64
+MASTER_PORT=12345
+OLDPWD=/nics/b/home/ppatel91
+QTDIR=/usr/lib64/qt-3.3
+PERL_MB_OPT=--install_base /nics/b/home/ppatel91/perl5
+QTINC=/usr/lib64/qt-3.3/include
+PBS_O_WORKDIR=/lustre/haven/proj/UTK0150/ppatel91/assignment4
+QT_GRAPHICSSYSTEM_CHECKED=1
+USER=ppatel91
+PBS_TASKNUM=1
+ANACONDA3_LIB=-L/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib
+LD_LIBRARY_PATH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/lib:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/lib/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/intel64/lib:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/lib/intel64
+PBS_O_HOME=/nics/b/home/ppatel91
+CONDA_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/conda
+CPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb/include
+PBS_WALLTIME=600
+PBS_MOMPORT=15003
+PBS_GPUFILE=/var/spool/torque/aux//4769414.apollo-acfgpu
+ANACONDA3_DIR=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0
+_CE_CONDA=
+PBS_O_QUEUE=batch
+CPP=icc -E
+SCRATCHDIR=/lustre/haven/user/ppatel91
+MASTER_ADDR=acf-rc028
+ANACONDA3_SH=/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/etc/profile.d/conda.sh
+BEGINENV=99
+NLSPATH=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/lib/intel64/locale/%l_%t/%N
+PATH=/lustre/haven/proj/UTK0150/envs/pytorch181/bin:/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/condabin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/bin:/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin:/usr/local/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/ppatel91/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/ppatel91/.local/bin:/nics/b/home/ppatel91/bin:/nics/b/home/ppatel91/.local/bin:/nics/b/home/ppatel91/bin
+PBS_O_LOGNAME=ppatel91
+MAIL=/var/spool/mail/ppatel91
+PBS_O_LANG=en_US.UTF-8
+PBS_JOBCOOKIE=8302D837F5F33F3B0E753E42E660F6DC
+CONDA_PREFIX=/lustre/haven/proj/UTK0150/envs/pytorch181
+TBBROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/tbb
+PWD=/lustre/haven/proj/UTK0150/ppatel91/assignment4
+F90=ifort
+_LMFILES_=/sw/acf-opt/modulefiles/moab/9.1.1:/sw/acf-opt/modulefiles/pbstools:/sw/acf-opt/modulefiles/intel-compilers/2018.1.163:/sw/acf-opt/modulefiles/intel-mpi/2018.1.163:/sw/acf-opt/modulefiles/PE-intel:/sw/acf/modulefiles/xalt/0.7.5:/sw/acf/modulefiles/DefApps:/sw/acf/modulefiles/anaconda3/4.4.0
+XALT_TRANSMISSION_STYLE=directdb
+LANG=C
+PBS_NODENUM=0
+TG_CLUSTER_LUSTRE=/lustre/haven/user/ppatel91
+MOABHOMEDIR=/opt/moab
+MODULEPATH=/usr/share/Modules/modulefiles:/opt/modulefiles:/sw/acf/modulefiles:/sw/acf-utk/modulefiles:/sw/acf-ut/modulefiles:/sw/acf-opt/modulefiles:/sw/acf-etsu/modulefiles
+PBS_NUM_NODES=1
+KDEDIRS=/usr
+LOADEDMODULES=moab/9.1.1:pbstools:intel-compilers/2018.1.163:intel-mpi/2018.1.163:PE-intel:xalt/0.7.5:DefApps:anaconda3/4.4.0
+PE_COMPILER=intel
+PBS_O_SHELL=/bin/bash
+F77=ifort
+CUE_SCRATCH_TYPE=lustre
+PBS_JOBID=4769414.apollo-acf
+_CE_M=
+ENVIRONMENT=BATCH
+HISTCONTROL=ignoredups
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+CXX=icpc
+HOME=/nics/b/home/ppatel91
+SHLVL=2
+PBS_O_HOST=acf-login6.acf.nics.utk.edu
+FC=ifort
+PBS_VNODENUM=0
+PERL_LOCAL_LIB_ROOT=:/nics/b/home/ppatel91/perl5
+CONDA_PYTHON_EXE=/sw/acf/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/bin/python
+LOGNAME=ppatel91
+PYTHONPATH=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/libexec
+TG_CLUSTER_SCRATCH=/lustre/haven/user/ppatel91
+CVS_RSH=ssh
+QTLIB=/usr/lib64/qt-3.3/lib
+PBS_QUEUE=batch
+XDG_DATA_DIRS=/nics/b/home/ppatel91/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
+MODULESHOME=/usr/share/Modules
+I_MPI_HYDRA_BOOTSTRAP=pbsdsh
+CONDA_DEFAULT_ENV=pytorch181
+ANACONDA3_INC=-I/sw/cs400_centos7.3_acfsoftware/anaconda3/4.4.0/centos7.3_gnu6.3.0/anaconda3-4.4.0/include
+PBS_O_MAIL=/var/spool/mail/ppatel91
+PBS_O_SUBMIT_FILTER=/usr/local/sbin/torque_submitfilter
+PBS_MICFILE=/var/spool/torque/aux//4769414.apollo-acfmic
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+PBS_NP=2
+CC=icc
+PBS_O_SERVER=apollo-acf
+PBS_NUM_PPN=2
+QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
+I_MPI_ARCH=intel64
+INCLUDE=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/ipp/include:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/compiler/include/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/mkl/include
+LMOD_DIR=/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3
+PBS_NODEFILE=/var/spool/torque/aux//4769414.apollo-acf
+PERL_MM_OPT=INSTALL_BASE=/nics/b/home/ppatel91/perl5
+PBS_O_PATH=/usr/local/bin:/usr/lib64/qt-3.3/bin:/nics/b/home/ppatel91/perl5/bin:/sw/cs400_centos7.3_acfsoftware/xalt/0.7.5/centos7.3/bin:/sw/acf/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163/intel64/bin:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/bin/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64/intel64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/compilers_and_libraries_2018.1.163/linux/mpi/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/advisor_2018.1.0.523188/bin64:/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/inspector_2018.1.0.522981/bin64:/nics/a/proj/nics/support/bin:/usr/share/Modules/bin:/opt/moab/bin:/usr/local/bin:/bin:/usr/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/nics/b/home/ppatel91/.local/bin:/nics/b/home/ppatel91/bin
+MODULESBEGINENV=/tmp/tmp.Qn1F7rmyrL
+I_MPI_ROOT=/nics/e/sw/cs400_centos7.3_optsoftware/intel/parallel_studio_xe_2018_update1/impi/2018.1.163
+BASH_FUNC_module()=() {  eval `/usr/bin/modulecmd bash $*`
+}
+_=/bin/env
+World size: 2
+epoch 0 num_iters 235 loss 2.3022141071076088 accuracy 0.11 elapsed time (s) 15.624503968283534
+epoch 1 num_iters 235 loss 2.290445620962914 accuracy 0.13 elapsed time (s) 28.059664664790034
+epoch 2 num_iters 235 loss 2.227564042679807 accuracy 0.23 elapsed time (s) 40.129424860700965
+epoch 3 num_iters 235 loss 1.9339574823988246 accuracy 0.31 elapsed time (s) 52.26252454519272
+epoch 4 num_iters 235 loss 1.6502084995837922 accuracy 0.4 elapsed time (s) 64.34363206662238
+epoch 5 num_iters 235 loss 1.345968567817769 accuracy 0.52 elapsed time (s) 76.47826074808836
+epoch 6 num_iters 235 loss 1.1115801344526575 accuracy 0.61 elapsed time (s) 88.56258452497423
+epoch 7 num_iters 235 loss 0.9945303407121212 accuracy 0.65 elapsed time (s) 100.63164985738695
+epoch 8 num_iters 235 loss 0.9217422439696941 accuracy 0.68 elapsed time (s) 112.68540226481855
+epoch 9 num_iters 235 loss 0.8685892787385494 accuracy 0.7 elapsed time (s) 124.75428499095142
+epoch 10 num_iters 235 loss 0.8290135956825094 accuracy 0.72 elapsed time (s) 136.83554403856397
+epoch 11 num_iters 235 loss 0.798851615824598 accuracy 0.73 elapsed time (s) 148.9099541567266
+epoch 12 num_iters 235 loss 0.7771376698575121 accuracy 0.74 elapsed time (s) 160.96811398677528
+epoch 13 num_iters 235 loss 0.7565382664508008 accuracy 0.75 elapsed time (s) 173.04170555248857
+epoch 14 num_iters 235 loss 0.7399780845388453 accuracy 0.75 elapsed time (s) 185.09757168218493
+epoch 15 num_iters 235 loss 0.7252395134022895 accuracy 0.76 elapsed time (s) 197.1807476785034
+epoch 16 num_iters 235 loss 0.7101919815895406 accuracy 0.76 elapsed time (s) 209.22834212519228
+epoch 17 num_iters 235 loss 0.6970364168603369 accuracy 0.77 elapsed time (s) 221.2907000258565
+epoch 18 num_iters 235 loss 0.6835885347204006 accuracy 0.77 elapsed time (s) 233.34802405163646
+epoch 19 num_iters 235 loss 0.6734808611108901 accuracy 0.78 elapsed time (s) 245.46472164802253
+epoch 20 num_iters 235 loss 0.6639391427344464 accuracy 0.78 elapsed time (s) 257.5792353209108
+epoch 21 num_iters 235 loss 0.6614491886280952 accuracy 0.78 elapsed time (s) 269.68607760220766
+epoch 22 num_iters 235 loss 0.6339295722068624 accuracy 0.79 elapsed time (s) 281.7243760731071
+epoch 23 num_iters 235 loss 0.6337893080204091 accuracy 0.79 elapsed time (s) 293.7678586561233
+epoch 24 num_iters 235 loss 0.6261198954379305 accuracy 0.79 elapsed time (s) 305.888844974339
+epoch 25 num_iters 235 loss 0.619201677276733 accuracy 0.79 elapsed time (s) 317.9447451401502
+epoch 26 num_iters 235 loss 0.6073400125858631 accuracy 0.8 elapsed time (s) 330.0027073547244
+epoch 27 num_iters 235 loss 0.6032174206794576 accuracy 0.8 elapsed time (s) 342.062661094591
+epoch 28 num_iters 235 loss 0.5989961260176719 accuracy 0.8 elapsed time (s) 354.08299785107374
+epoch 29 num_iters 235 loss 0.5926203181134894 accuracy 0.8 elapsed time (s) 366.1298752911389

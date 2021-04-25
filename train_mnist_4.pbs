@@ -1,0 +1,40 @@
+#!/bin/bash
+#
+#PBS -S /bin/bash
+#PBS -N train_mnist_dse512
+#PBS -A ACF-UTK0150
+#PBS -o logs/$PBS_JOBNAME.$PBS_JOBID.o
+#PBS -e logs/$PBS_JOBNAME.$PBS_JOBID.e
+#PBS -l nodes=1:ppn=4
+#PBS -l walltime=00:30:00
+#PBS -l qos=condo
+
+# Perform some simple commands
+set -x 
+
+##
+## FOR YOUR JOBS, REPLACE BELOW WITH YOUR CODE
+##
+
+# NOTE: first run the following in your environment (named dse512 here)
+# conda install pytorch=1.7.1=cpu_py38h6a09485_0
+module load anaconda3
+source $ANACONDA3_SH
+
+#conda activate /lustre/haven/proj/UTK0150/ppatel91/cenv
+conda activate /lustre/haven/proj/UTK0150/envs/pytorch181
+
+cd /lustre/haven/proj/UTK0150/ppatel91/assignment4
+
+#conda activate dse512
+
+
+#cd /lustre/haven/proj/UTK0150/jhinkl13/mnist_ddp
+
+
+export MASTER_ADDR=$(head -n 1 $PBS_NODEFILE)
+export MASTER_PORT=12345
+
+env
+
+mpirun -n $PBS_NP python train_mnist.py
